@@ -1,5 +1,7 @@
 ### Maven Proxy Configuration with Nexus and AWS Secrets Manager
 
+![image](https://github.com/user-attachments/assets/114e28aa-8c13-4a3e-9592-14be6f58cec4)
+
 #### Introduction
 
 In enterprise environments, Maven dependencies are often managed through a private Nexus repository that acts as a proxy to Maven Central. This setup improves security, control, and efficiency by caching dependencies locally and allowing restricted internet access. In this guide, we will walk through configuring Maven to use Nexus as a proxy repository, securing Nexus credentials using AWS Secrets Manager, and dynamically injecting these credentials into Maven’s `settings.xml` file at runtime.
